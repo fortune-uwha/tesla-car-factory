@@ -15,7 +15,6 @@ class Tesla:
         return self.__color
 
     def autopilot(self, obsticle: str) -> str:
-        # COMPLETE THE FUNCION
         """This returns autopilot information"""
         if self.__autopilot:
             return f"Tesla model {self.__model} avoids {obsticle}"
@@ -74,7 +73,7 @@ class Tesla:
         else:
             print("Battery charge level is too low!")
         return self.check_battery_level()
-        # ADD YOUR CODE
+        
 class ModelX(Tesla):
     def __init__(self, color: str, autopilot: bool = False):
         # PASS REQUIRED VARIABLES TO INIT FUNCTION. EFFICIENCY SHOULD BE SET TO 0.125
