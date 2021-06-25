@@ -1,4 +1,4 @@
-from Tesla import Tesla
+from tesla import Tesla
 
 tesla1 = Tesla("S", "blue", autopilot=True)
 
