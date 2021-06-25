@@ -7,5 +7,5 @@ setup(
     author='Fortune Uwha',
     author_email='fortune.uwha@gmail.com',
     url='https://github.com/fortune-uwha/tesla_car_factory',
-    packages=['tesla']
+    packages=['tesla_car_factory']
 )
